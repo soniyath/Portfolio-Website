@@ -1,0 +1,455 @@
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Title Name & Icon-->
+    <title>Yatharth Soni</title>
+    <link rel="shortcut icon" href="media/Yatharth-Soni-Icon.png" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" style="font-size: 0.73em;;" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script>
+        function sendEmail(){
+            window.location.href = "#contact";
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="primary-format" id="home">
+    <!--Navigation Bar-->
+    <nav class="nav-bar">
+        <div  class="nav-content-align">
+                    <a href="#home">
+                        <img height="90em" src="media/YatharthSoniIcon.png">
+                    </a>
+        </div>
+        <div class="topnav" id="myTopnav">            
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                 <a href="javascript:void(0);" style="font-size:xx-large; color: #e1ae36;" class="icon" onclick="myFunction()">&#9776;</a>  
+        </div>
+        <!-- Javascript for mobile view of nav -->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+    </nav>  
+        <div class="main-content">
+            <h1 id="main-name">Yatharth Soni
+            </h1>
+            <h2 id="sub-name">Software Developer
+            </h2>
+            <p class="paragraph-font">Hey there, this is <span class="highlight-text">Yatharth Soni</span>! 
+                I’m an <span class="highlight-text">Oracle Certified Java Developer</span> passionate about building Applications and Websites.
+                I’ve been learning and building the applications since I was 14! 
+                My passion lies in overall <span class="highlight-text">Software Development</span>, <span class="highlight-text">Web Applications</span> and <span class="highlight-text">Website Development</span>.
+            </p>
+            <p id="angle-down">
+                <a href="#whatido"> 
+                    <i style="font-size:xxx-large;" class="fa-solid fa-angles-down">
+                    </i>
+                </a>
+            </p>
+        </div>
+    </div>
+    <main>
+    <div class="primary-format" id="whatido">
+        <h1 class="title-text">What I Do</h1>
+        <div class="speciality-section">        
+        <div class="container-content">
+            <div class="container">
+                
+                <img height="100px" src="media/android-whatido.svg">
+                <h3>Android Developer</h3>
+                    <p>
+                        Have worked as a freelancer building Android Applications for my clients and some fun projects!                    
+                </p>
+            </div>
+            <div class="container">  
+                <img height="100px" src="media/app-whatido.svg">    
+                <h3>App Developer</h3>
+                <p>
+                    I love creating Desktop, Mobile and Web Applications with a skill set of Java, Android and C#!
+                </p>
+            </div>
+            <div class="container">
+                <img height="100px"  src="media/Web-whatido.svg">
+                <h3>Web Developer</h3>
+                <p>
+                    I love building Websites and I have been serving the clients as a WordPress Freelancer as well!
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="primary-format" id="projects">
+        <h1 class="title-text">Projects</h1>
+        <div class="project-section">
+            <article class="project-box">
+                <div class="project-image-container">
+                        <img height="100%" src="media/Self.png" alt="Journaling Application">
+                </div>
+                <div class="project-description-container">
+                    <h3>Self : Journaling Application</h3>
+                    <h4>Technologies Used: 
+                    <span class="techStack">Java</span>, 
+                    <span class="techStack">Android</span>, 
+                    <span class="techStack">Firebase</span>,
+                    <span class="techStack">Firestore Database</span>,
+                    <span class="techStack">Picasso Lib</span>&
+                    <span class="techStack">Authentication</span>
+                     
+                    </h4>
+                    <ul>
+                        <li>
+                            <span class="highlight-text">Android Application</span> developed as a personal project for <span class="highlight-text">Journaling</span> for mindfulness and kicking-in more <span class="highlight-text">Zen</span>!
+                        </li>
+                        <li>
+                           Built to showcase my skills like <span class="highlight-text">Database Management with CRUD</span>, <span class="highlight-text">MVC</span> and <span class="highlight-text">API calls</span> while allwoing user to have a secure and personalized application.
+                        </li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/soniyath/Self-Mindful-Journal" target="_blank">GIT REPO</a>
+                        </div>
+                </div>
+            </article>
+            <article class="project-box">
+                <div class="project-image-container">
+                        <img height="100%" src="media/MachineLearningFirebaseApp.png" alt="Machine Learning Application">
+                </div>
+                <div class="project-description-container">
+                    <h3>Smile Detector: Face Recognition Machine Learning</h3>
+                    <h4>Technologies Used: 
+                    <span class="techStack">Java</span>, 
+                    <span class="techStack">Android</span>, 
+                    <span class="techStack">Firebase ML</span> &
+                    <span class="techStack">Open-source API</span> 
+                     
+                    </h4>
+                    <ul>
+                        <li>
+                            An <span class="highlight-text">Android Machine Learning Application</span> with an ability  to detect the excat <span class="highlight-text">probability of a person's mood</span>!
+                        </li>
+                        <li>
+                           Applied my knowledge of <span class="highlight-text">Firebase ML API</span> and <span class="highlight-text">Open source API calls</span>.
+                        </li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/soniyath/SmileDetector" target="_blank">GIT REPO</a>
+                        </div>
+                </div>
+            </article>
+            <article class="project-box">
+                <div class="project-image-container">
+                        <img height="100%" src="media/LaxmiJewInventory.png" alt="Inventory Application">
+                </div>
+                <div class="project-description-container">
+                    <h3>Inventory Management Application: Laxmi Jewellers</h3>
+                    <h4>Technologies Used: 
+                    <span class="techStack">Java</span>, 
+                    <span class="techStack">Android</span>, 
+                    <span class="techStack">Firebase</span> &
+                    <span class="techStack">SQLite</span> 
+                     
+                    </h4>
+                    <ul>
+                        <li>
+                            <span class="highlight-text">Android Application</span> developed for the client <span class="highlight-text">automatically update</span> all the SRP with the <span class="highlight-text">Global Gold Price</span> on a daily basis!
+                        </li>
+                        <li>
+                            Helped them revolutionize <span class="highlight-text">Accounting</span>, <span class="highlight-text">Reporting</span> and <span class="highlight-text">Analytics</span>.
+                        </li>
+                        <li>
+                            A big step-up in the Inventory Game <span class="highlight-text">replacing the conventional means</span>.
+                        </li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/soniyath" target="_blank">GIT REPO</a>
+                        </div>
+                </div>
+            </article>
+
+
+
+            <article class="project-box">
+                <div class="project-image-container">
+                        <img src="media/DataIntegrationLaSpesa.png" alt="Platform Integration">
+                </div>
+                <div class="project-description-container">
+                    <h3>Platform Integration through Data Management</h3>
+                    <h4>Technologies Used: 
+                    <span class="techStack">Lightspeed: Vend</span>& 
+                    <span class="techStack">Shopify</span>  
+                    </h4>
+                    <ul>
+                        <li>
+                            Integrated the products, sales and inventory movements of <span class="highlight-text">Lightspeed: Vend</span> and <span class="highlight-text">Shopify</span> platforms
+                        </li>
+                        <li>
+                            Helped the start-up business to <span class="highlight-text">automatize</span> more than <span class="highlight-text">25% of manual-iterative hours</span>!
+                        </li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://laspesamarket.com/collections/charcuterie-meat" target="_blank">LIVE CATALOG</a>
+                        </div>
+                </div>
+            </article>
+
+            <article class="project-box">
+                <div class="project-image-container">
+                        <img src="media/LaxmiJewellersWebsite.png" alt="Laxmi Jewellers Website">
+                </div>
+                <div class="project-description-container">
+                    <h3>Website: Laxmi Jewellers</h3>
+                    <h4>Technologies Used: 
+                    <span class="techStack">Wordpress</span>.
+                    </h4>
+                    <ul>
+                        <li>
+                            Created this website for my client to establish their <span class="highlight-text">online presence</span>.
+                        </li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://laxmijewellersborsad.com/" target="_blank">LIVE SITE</a>
+                        </div>
+                </div>
+            </article>
+
+            <article class="project-box">
+                <div class="project-image-container">
+                        <img src="media/COSEWIC.jpg" alt="Inventory Application">
+                </div>
+                <div class="project-description-container">
+                    <h3>COSEWIC Data Management</h3>
+                    <h4>Technologies Used: 
+                    <span class="techStack">C</span> & 
+                    <span class="techStack">Data Structures</span>. 
+                    </h4>
+                    <ul>
+                        <li>
+                            A <span class="highlight-text">console application</span> for manipulating Canadian endangered species data based on data structures and algorithms.
+                        </li>
+                        <li>
+                            Showcased <span class="highlight-text">sorting</span> & <span class="highlight-text">searching</span> algorithms with optimized <span class="highlight-text">time</span> and <span class="highlight-text">space complexity</span>.
+                        </li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/soniyath/COSEWIC-DataManagement" target="_blank">GIT REPO</a>
+                        </div>
+                </div>
+            </article>
+
+            <article class="project-box">
+                <div class="project-image-container">
+                        <img src="media/MedicalApplication.jpg" alt="Medical Application">
+                </div>
+                <div class="project-description-container">
+                    <h3>MediApp</h3>
+                    <h4>Technologies Used: 
+                    <span class="techStack">C#</span>, 
+                    <span class="techStack">ASP.NET</span>, 
+                    <span class="techStack">WCF: Web Services</span>& 
+                    <span class="techStack">MySQL</span>. 
+                    </h4>
+                    <ul>
+                        <li>
+                            A <span class="highlight-text">web application</span> with user-friendly UI fulfilling the purpose of <span class="highlight-text">data organization</span>.
+                        </li>
+                        <li>
+                            <span class="highlight-text">CRUD functionality</span> for patient data in the <span class="highlight-text">hospital databse</span> for future usage by providing an ease of access to the Hospital Team.
+                        </li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/soniyath/MediApp" target="_blank">GIT REPO</a>
+                        </div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="primary-format" id="experience">
+        <h1 class="title-text">Skills & Tools</h1>
+        <div class="speciality-section">
+        <section>
+            <div>
+              <ul class="skills-grid">
+                <li>
+                  <div>
+                    <img src="media/Java.svg">
+                    <p>Java</p>
+                  </div>
+                </li>
+                <li>
+                    <div>
+                      <img src="media/Spring.svg">
+                      <p>Spring</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                      <img src="media/mysql.png">
+                      <p>RDBMS</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                      <img src="media/Android.svg">
+                      <p>Android</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                      <img src="media/Firebase.svg">
+                      <p>Firebase</p>
+                    </div>
+                </li>
+                <li>
+                      <div>
+                        <img src="media/HTML5.svg">
+                        <p>HTML</p>
+                        </div>
+                </li>
+                <li>
+                      <div>
+                          <img src="media/CSS3.svg">
+                           <p>CSS</p>
+                      </div>
+                </li>
+                <li>
+                      <div>
+                          <img src="media/Angular.svg">
+                          <p>Angular</p>
+                        </div>
+                </li>
+                <li>
+                        <div>
+                            <img src="media/Wordpress.svg">
+                            <p>Word Press</p>
+                        </div>
+                </li>
+                <li>
+                        <div>
+                            <img src="media/Shopify.svg">
+                            <p>Shopify</p>
+                        </div>
+                </li>
+            </ul>
+        </div> 
+        </section>
+        <button id="say-hi-button" onclick="sendEmail()"> <b>CONTACT</b></button>
+    </div>
+    
+    </div>
+
+
+    <div class="primary-format" id="about">
+     
+        <h1 class="title-text">About</h1>
+    <div class="speciality-section" id="about-speciality">
+        <div class="profile-alignment">
+        <div class="vertical-flex">
+                <div >
+                <img id="profile-image" src="media/YatharthProfile.png">
+                </div>
+                <div id="profile-name" class="paragraph-font">
+                    YATHARTH SONI
+                    <br />
+                </div>
+                <div class="horizontal-flex">
+                    <div>
+                    <a href="https://www.linkedin.com/in/yatharth-soni/" target="_blank">
+                    <!-- <i style="font-size:xxx-large ;" class="fa-brands fa-linkedin"></i> -->
+                        <img class="link-icons" height="50px" src="media/linkedin.png">
+                    </a>
+                    </div>
+                    <div>
+                    <a href="mailto:yatharth.soni14@gmail.com">
+                        <!-- <i style="font-size:xxx-large" class="fa-solid fa-square-envelope"></i> -->
+                        <img class="link-icons" height="50px" src="media/gmail.png">
+                    </a>
+                    </div>
+                    <div>
+                    <a href="https://github.com/soniyath" target="_blank">
+                        <!-- <i style="font-size:xxx-large" class="fa-brands fa-square-github"></i> -->
+                        <img class="link-icons" height="50px" src="media/github.png">
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <div class="vertical-flex">
+
+                <p class="paragraph-font">
+                    Since High school I was very fascinated by the intricacy of computer programming; my first exposure was when we created small devices and robots using <span class="highlight-text">Python</span> and <span class="highlight-text">Arduino UNO Chip</span>; 
+                    ultimately working our way up to creating a <span class="highlight-text">Tape-following Robot</span> which won us the <span class="highlight-text">District Science Fair</span>!
+                    Then I joint some IT classes where I was exposed to <span class="highlight-text">C Programming</span>, and there was <span class="highlight-text">NO LOOKING BACK</span>!
+
+                </p>
+                <p class="paragraph-font">
+                    I’m an asipiring <span class="highlight-text">Java Developer</span> with a solid understanding of Object-Oriented Programming Concepts, Design Patterns, JDBC, JAVA EE, Spring, Web API and GIT to serve my team as well as clients in the best way possible. Currently I’m looking for a <span class="highlight-text">Developer role</span> based in <span class="highlight-text">Toronto</span>! Feel free to contact me through the form!
+                </p>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="primary-format" id="contact">
+        <h1 class="title-text">Contact</h1>
+       <div class="speciality-section">
+        
+        <div class="margin-ratio">
+            
+            <div class="form-format">
+                
+                <form action="mailto:yatharth.soni14@gmail.com" method="post" enctype="text/plain">
+                    <label for="name" class="visually-hidden">Name*</label>
+                    <input type="text" name="name" id="name" placeholder="Name*" autocomplete="on" required>
+                    <label for="email" class="visually-hidden">Email*</label>
+                    <input type="email" name="email" id="email" placeholder="Email*" required>
+                    <label for="message" class="visually-hidden">Message*</label>
+                    <textarea name="message" placeholder="Message*" required></textarea>
+                    <div class="submit-container">
+                        <button class="send" type="submit">SEND</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="form-format">
+                <p class="paragraph-font">
+                    I’m open to new <span class="highlight-text">Full-time or Free-lancing Opportunities</span>! However, if you have other requests or questions, don’t hesitate to use the form!
+                </p>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+    </main>
+    <footer class="footer-bar">
+        <div> 
+            <p class="footer-font">Yatharth Soni &copy; 2022</p>
+        </div>
+        <div class="footer-links">
+                <a href="https://www.linkedin.com/in/yatharth-soni/" target="_blank">
+                <i style="font-size:xx-large ;" class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:yatharth.soni14@gmail.com">
+                    <i style="font-size:xx-large" class="fa-solid fa-square-envelope"></i>
+                </a>
+                <a href="https://github.com/soniyath" target="_blank">
+                    <i style="font-size:xx-large" class="fa-brands fa-square-github"></i>
+                </a>
+                
+        </div>
+</footer>
+</body>
+
+</html>
